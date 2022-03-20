@@ -39,3 +39,12 @@ Utilizaremos **Gerkhin** para detalhamento dos cenários, usando as palavras-cha
 **QUANDO** clicar no ícone da lixeira
 
 **ENTÃO** a tarefa terá sido removida da listagem
+
+### Cenário 02: **Criar várias tarefa e depois excluí-las**
+**DADO** que estou no app To Do
+
+**E** várias tarefas foram criadas
+
+**QUANDO** clicar no ícone da lixeira de cada tarefa
+
+**ENTÃO** todas as tarefas terão sido removidas da listagem

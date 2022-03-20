@@ -12,6 +12,12 @@ Links dos projetos hospedados no Vercel e que serão testados:
 
 ---
 
+### Taiko - Reliable Browser Automation
+
+[Acesse aqui!](https://taiko.dev/)
+
+---
+
 ### Documentação da ferramenta Taiko
 
 [**Saiba mais!**](https://docs.taiko.dev/)
@@ -34,7 +40,7 @@ Links dos projetos hospedados no Vercel e que serão testados:
 
 - Para executar o script com visão apenas do CLI
 
-` taiko <script_de_teste>.js `
+`taiko <script_de_teste>.js`
 
 **ou**
 

@@ -14,7 +14,7 @@ const assert = require('assert').strict;
   try {
     console.log('Funcionalidade: Excluir tarefa')
     console.log('-----------------------------------------------')
-    console.log('Criar uma tarefa e depois excluí-la')
+    console.log('Criar várias tarefas e depois excluí-las')
     console.log('-----------------------------------------------')
     console.log('DADO que estou no app To Do')
 
@@ -54,7 +54,7 @@ const assert = require('assert').strict;
     console.log('QUANDO clicar no ícone da lixeira')
 
     await click($(`//button[@class='uk-icon-button uk-button-danger uk-icon']`))
-    
+
     console.log('-----------------------------------------------')
     console.log('ENTÃO a tarefa terá sido removida da listagem')
 

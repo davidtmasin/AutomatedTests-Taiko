@@ -15,3 +15,19 @@ Links dos projetos hospedados no Vercel e que serão testados:
 ### Github do projeto Taiko
 
 [**Acesse aqui!**](https://github.com/getgauge/taiko)
+
+### Como instalar o Taiko?
+
+` npm install -g taiko`
+
+### Executar um script taiko
+
+- Para executar o script com visão apenas do CLI
+
+` taiko <script_de_teste>.js `
+
+ou
+
+- Para executar o script com visão do navegador
+
+` taiko <script_de_teste>.js --observe`

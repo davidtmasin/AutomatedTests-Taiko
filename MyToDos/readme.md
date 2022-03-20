@@ -6,6 +6,8 @@ Utilizaremos **Gerkhin** para detalhamento dos cenários, usando as palavras-cha
 * **ENTÃO** (Resultado da ação)
 * **E** (Acréscimo de informação)
 
+---
+
 ## Funcionalidade: Criar tarefa
 
 ### Cenário 01: **Criar uma tarefa informando um nome**
@@ -19,6 +21,8 @@ Utilizaremos **Gerkhin** para detalhamento dos cenários, usando as palavras-cha
 
 **ENTÃO** a tarefa cadastrada estará visível na lista
 
+---
+
 ### Cenário 02: **Criar uma tarefa sem informar um nome**
 **DADO** que estou no app To Do
 
@@ -28,6 +32,7 @@ Utilizaremos **Gerkhin** para detalhamento dos cenários, usando as palavras-cha
 
 **ENTÃO** a mensagem "Tarefa inválida" será apresentada
 
+---
 
 ## Funcionalidade: Excluir tarefa
 
@@ -39,6 +44,8 @@ Utilizaremos **Gerkhin** para detalhamento dos cenários, usando as palavras-cha
 **QUANDO** clicar no ícone da lixeira
 
 **ENTÃO** a tarefa terá sido removida da listagem
+
+---
 
 ### Cenário 02: **Criar várias tarefa e depois excluí-las**
 **DADO** que estou no app To Do

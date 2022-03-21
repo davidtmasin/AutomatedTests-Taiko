@@ -22,7 +22,7 @@ const assert = require('assert').strict;
     await goto('https://react-todo-six-blond.vercel.app/')
     assert.ok(await $(`//a[text()='My Todos']`).exists())
     await screenshot(
-      { path: './screenshots/delete/Cenario 01 - 01.png' },
+      { path: '../screenshots/delete/Cenario 01 - 01.png' },
       { path: 'screenshot' },
       { fullPage: true }
     )
@@ -33,20 +33,20 @@ const assert = require('assert').strict;
     await click($(`//span[@class='uk-icon']`))
     assert.ok(await $(`//h4[text()='Nova tarefa']`))
     await screenshot(
-      { path: './screenshots/delete/Cenario 01 - 02.png' },
+      { path: '../screenshots/delete/Cenario 01 - 02.png' },
       { fullPage: true }
     )
 
     await focus(into(textBox('Nova tarefa...')))
     await write('Escrevendo uma tarefa', into(textBox('Nova tarefa...')))
     await screenshot(
-      { path: './screenshots/delete/Cenario 01 - 03.png' },
+      { path: '../screenshots/delete/Cenario 01 - 03.png' },
       { fullPage: true }
     )
 
     await click($(`//button[text()='Salvar']`))
     await screenshot(
-      { path: './screenshots/delete/Cenario 01 - 04.png' },
+      { path: '../screenshots/delete/Cenario 01 - 04.png' },
       { fullPage: true }
     )
 
@@ -60,7 +60,7 @@ const assert = require('assert').strict;
 
     assert.ok(!(await $(`//*[@id="root"]/div/div[2]/table/tbody/tr`).exists()))
     await screenshot(
-      { path: './screenshots/delete/Cenario 01 - 05.png' },
+      { path: '../screenshots/delete/Cenario 01 - 05.png' },
       { fullPage: true }
     )
   } catch (error) {
